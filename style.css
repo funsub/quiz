@@ -1,0 +1,118 @@
+* {
+	margin: 0;
+	text-align: center;
+}
+body {
+	
+	padding: 25px;
+
+}
+
+h1 {
+
+	letter-spacing: 2px; 
+	font-size: 50px;
+	padding: 30px;
+	font-family: Roboto Slab;/*'Shippori Mincho B1'serif; cursive;*/
+	padding-top: 54px;
+	color: #546e88/*#8ba3bd*/;
+	
+}	
+
+p {
+	color: #9ba3b1;
+	font-size: 32px;
+	padding: 40px;
+	padding-left: 90px;
+	padding-right: 90px;
+	font-weight: 500;
+	font-family: -webkit-pictograph;
+}
+
+div {
+	background-color: /*#f6e1c3*/#f7dab1;
+	margin: 2px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-left: 244px;
+    margin-right: 244px;
+    border-radius: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 38px;
+}
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+	padding-top: 20px;
+	margin: 20px;
+}
+header {
+	background-image: url("https://image.freepik.com/free-vector/quiz-background-with-flat-objects_23-2147593080.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 100px;
+	padding-left: 168px;
+    padding-right: 168px;
+    background-attachment: fixed;
+	height: 90vh;
+}
+
+.btn1 {
+    border: none;
+    background-color: #47e2cfcc;
+    font-size: 40px;
+    padding: 20px;
+    border: 2px solid #efe8e8;
+    border-radius: 52px;
+    padding-left: 73px;
+    padding-right: 73px;
+    margin: 5px;
+    font-family: serif;
+}
+
+.btn2{
+	border: none;
+	background-color: #47e2cfcc;
+	font-size: 35px;
+	padding-left: 22px;
+	padding-right: 22px;
+	border: 2px solid #efe8e8;
+	border-radius: 52px;
+	padding-bottom: 21px;
+    padding-top: 21px;
+    margin: 5px;
+    font-family: serif;
+}
+
+.btn3{
+	border: none;
+	background-color: #47e2cfcc;
+	font-size: 35px;
+	padding: 21px;
+	padding-left: 35px;
+    padding-right: 35px;
+	border: 2px solid #efe8e8;
+	border-radius: 52px;
+	margin: 5px;
+	font-family: serif;
+}
+
+.btn1:hover{
+	background-color: silver;
+	color: white;
+}
+
+.btn2:hover{
+	background-color: silver;
+	color: white;
+}
+.btn3:hover{
+	background-color: silver;
+	color: white;
+}
